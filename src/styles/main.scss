@@ -1,4 +1,17 @@
+@use 'reset';
+@use 'variaveis';
+@use 'hero';
 
-body {
-    background-color: green;
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 640px){
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px ) {
+        max-width: 90%;
+    }
 }
