@@ -1,8 +1,9 @@
 @use 'reset';
-@use 'variaveis';
 @use 'hero';
 @use 'components/infos_bar';
 @use 'components/buttons';
+@use 'event';
+@use 'variaveis';
 
 .container {
     width: 960px;
